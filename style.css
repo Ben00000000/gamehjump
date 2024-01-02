@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.player {
+  width: 256px;
+  height: 256px;
+  background: url('https://raw.githubusercontent.com/Ben00000000/asstes/main/Run%20(2).png') 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.enemy {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  position: absolute;
+  bottom: -2%;
+  right: 0;
+}
+
+.background {
+  width: 200%; /* Double the width for a seamless loop */
+  height: 100%;
+   background: url('https://raw.githubusercontent.com/Ben00000000/asstes/main/seamless1234.png') center center/contain;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
